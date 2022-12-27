@@ -1,1 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Miguel Álvarez Portofolio</title><link>https://miguelalvred.github.io/malvarez/tags/</link><description>Recent content in Tags on Miguel Álvarez Portofolio</description><generator>Source Themes academia (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright &amp;copy; {year}</copyright><lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://miguelalvred.github.io/malvarez/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Base</title><link>https://miguelalvred.github.io/malvarez/tags/data-base/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://miguelalvred.github.io/malvarez/tags/data-base/</guid><description/></item><item><title>EDA</title><link>https://miguelalvred.github.io/malvarez/tags/eda/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://miguelalvred.github.io/malvarez/tags/eda/</guid><description/></item><item><title>Python</title><link>https://miguelalvred.github.io/malvarez/tags/python/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://miguelalvred.github.io/malvarez/tags/python/</guid><description/></item><item><title>SQL</title><link>https://miguelalvred.github.io/malvarez/tags/sql/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://miguelalvred.github.io/malvarez/tags/sql/</guid><description/></item><item><title>Webscraping</title><link>https://miguelalvred.github.io/malvarez/tags/webscraping/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://miguelalvred.github.io/malvarez/tags/webscraping/</guid><description/></item><item><title>Source Themes</title><link>https://miguelalvred.github.io/malvarez/tags/source-themes/</link><pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate><guid>https://miguelalvred.github.io/malvarez/tags/source-themes/</guid><description/></item><item><title>academia</title><link>https://miguelalvred.github.io/malvarez/tags/academia/</link><pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate><guid>https://miguelalvred.github.io/malvarez/tags/academia/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Miguel Álvarez Portofolio</title>
+    <link>https://miguelalvred.github.io/malvarez/tags/</link>
+    <description>Recent content in Tags on Miguel Álvarez Portofolio</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://miguelalvred.github.io/malvarez/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Base</title>
+      <link>https://miguelalvred.github.io/malvarez/tags/data-base/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelalvred.github.io/malvarez/tags/data-base/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EDA</title>
+      <link>https://miguelalvred.github.io/malvarez/tags/eda/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelalvred.github.io/malvarez/tags/eda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://miguelalvred.github.io/malvarez/tags/python/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelalvred.github.io/malvarez/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>https://miguelalvred.github.io/malvarez/tags/sql/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelalvred.github.io/malvarez/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webscraping</title>
+      <link>https://miguelalvred.github.io/malvarez/tags/webscraping/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelalvred.github.io/malvarez/tags/webscraping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>https://miguelalvred.github.io/malvarez/tags/source-themes/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelalvred.github.io/malvarez/tags/source-themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>academia</title>
+      <link>https://miguelalvred.github.io/malvarez/tags/academia/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miguelalvred.github.io/malvarez/tags/academia/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
