@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SQL on Miguel Álvarez Portofolio</title><link>https://malvarez.tech/tags/sql/</link><description>Recent content in SQL on Miguel Álvarez Portofolio</description><generator>Source Themes academia (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright &amp;copy; {year}</copyright><lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://malvarez.tech/tags/sql/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Base Creation Project</title><link>https://malvarez.tech/project/mysql_db_project/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://malvarez.tech/project/mysql_db_project/</guid><description>&lt;p>&lt;strong>Especificaciones del Proyecto&lt;/strong>&lt;/p>
+&lt;p>Para el diseño y la creación de la base de datos existen las siguientes restricciones:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Cada hospital está compuesto por salas de especialidades.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>La plantilla del hospital compuesta por enfermeros / enfermeras y personal interno (no doctores) en turnos de mañana (M), tarde (T) y noche (N).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Cada hospital tiene un número máximo de camas y en cada sala existe un número de camas asociado.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Cada doctor depende de un hospital, no pudiéndose dar el caso de que un doctor pertenezca a varios
+hospitales.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>El atributo salario de la plantilla guarda información del salario anual bruto.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Un enfermo tiene asignada una sala y una cama de dicha sala.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Objetivos&lt;/strong>&lt;/p>
+&lt;p>Los objetivos mediante vamos a calificar si el proyecto ha resultado un éxito son los siguientes:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Diseño de un diagrama Entidad - Relación que cumpla las necesidades expuestas en el enunciado.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Implementar el modelo en MySQL.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Estructurar la base de datos según una metodología sostenible:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Evitar la duplicidad de los datos.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Velar por la normalización de la base de datos.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Desarrollar un modelo escalable, que a pesar de la adición de registros en cualquiera de sus tablas, se mantenga plenamente funcional&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Sentencias SQL&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Encuentra todos los miembros del personal cuyo nombre comience por ‘H’.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>¿Quiénes son las enfermeras y enfermeros que trabajan en turnos de tarde o mañana?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Hacer un listado del personal de enfermería cuyo salario está comprendido entre 25.000 y 35.000 € al año.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Mostrar, para todos los hospitales, el código de hospital, el nombre completo del hospital y su nombre abreviado de tres letras. Ordenar el resultado por esta abreviatura.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Encontrar a todas las enfermeras y enfermeros con indicación del salario mensual de cada uno.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Recuperar el número de empleado y nombre de las personas que perciban un salario &amp;gt; que la media de su hospital.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Insertar en la tabla PLANTILLA a “Pedro Elguapo” con un salario anual de 30.000 €, número de empleado 1234. Trabaja en el hospital 22, sala 2.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Actualizar al paciente número 74835 la dirección a la calle Alcalá, 411.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Poner todas las direcciones de la tabla ENFERMO a NULL.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Igualar la dirección y fecha de nacimiento del paciente 10995 a los valores de las columnas correspondientes almacenadas para el paciente 14024.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>En todos los hospitales del país se ha recibido un aumento del presupuesto, por lo que se incrementará el número de camas disponibles en un 10%.) ¿Cómo se haría en SQL? Analizar si es necesario cambiar la estructura de la tabla de HOSPITAL, y en ese caso crear una copia de seguridad de esta, además de hacer el correspondiente ajuste en el número de camas.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Se va a realizar un programa de consulta de la información sobre enfermos. Los datos por mostrar serán sus apellidos, dirección, fecha de nacimiento y hospital en el que se encuentran. ¿Qué vista se definirá? ¿Es posible modificar datos a través de la vista anterior?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Obtener un listado que incluya el nombre de cada hospital, las salas, los empleados que trabajan en cada sala, agrupados por categorías profesionales y salarios.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Obtener el grado de ocupación de cada hospital, es decir, el número de enfermos que hay en cada uno de los hospitales, analizar la ocupación actual por salas y obtener la diferencia entre la ocupación actual y la ocupación máxima por sala.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Seleccionar todos los doctores por cada hospital, en el informe deberá aparecer el nombre del hospital y la correspondiente lista de doctores asociados.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Conclusiones&lt;/strong>&lt;/p>
+&lt;p>Durante el proyecto, he realizado tareas como el diseño de la estructura de la base de datos, la importación de datos y la creación de consultas. El resultado final es una base de datos funcional y escalable.&lt;/p>
+&lt;p>Además, el proyecto me ha permitido mejorar mis habilidades en SQL y aprender nuevas funciones y conceptos.&lt;/p>
+&lt;p>En general, ha sido una experiencia muy enriquecedora y estoy seguro de que la base de datos será muy útil para mis necesidades.&lt;/p>
+&lt;p>If you want to check the JupyterNotebook where I develop this project you will find it at the Code button at the top of the page.&lt;/p></description></item><item><title>Northwind EDA based on SQL</title><link>https://malvarez.tech/project/northwind_eda_sql/</link><pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate><guid>https://malvarez.tech/project/northwind_eda_sql/</guid><description>&lt;p>At this project I&amp;rsquo;m going to answer different business questions based on the Northwind Database, this DB was create on PostgreSQL so, first of all, I have to connect to my local host and then launch the queries.&lt;/p>
+&lt;p>To make it possible I used the following libraries:&lt;/p>
+&lt;ul>
+&lt;li>Pandas: To store the created dataframes&lt;/li>
+&lt;li>Pandas.io.sql: To read the SQL queries into dataframes&lt;/li>
+&lt;li>Psycog2: To connect the notebook to the PostgreSQL engine&lt;/li>
+&lt;li>Warnings: To make expections on warnings&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Business Questions:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>What is the total number of clients per country?&lt;/li>
+&lt;li>What is the total number of orders per country?&lt;/li>
+&lt;li>What is the average price per order per country?&lt;/li>
+&lt;li>What is the total invoice for each country?&lt;/li>
+&lt;li>What is the total profit for each country?&lt;/li>
+&lt;li>What are the 10 most ordered products?&lt;/li>
+&lt;li>What are the 10 most expensive products?&lt;/li>
+&lt;li>What are the 10 products with the highest invoice?&lt;/li>
+&lt;li>What are the 10 products with the highest unit profit?&lt;/li>
+&lt;li>What are the 10 most profitable products?&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Conclussions about the Analysis&lt;/strong>&lt;/p>
+&lt;p>Once this EDA has been carried out, a series of conclusions are drawn:&lt;/p>
+&lt;ul>
+&lt;li>The countries with the highest number of clients are USA, Germany, France and Brazil.&lt;/li>
+&lt;li>The countries with the highest number of orders are USA, Germany, Brazil and France.&lt;/li>
+&lt;li>The countries with the highest average order income are Austria, Ireland, Denmark and Germany.&lt;/li>
+&lt;li>The countries with the highest total income are USA, Germany, Austria and Brazil.&lt;/li>
+&lt;li>The countries with the highest total profit are USA, Germany, Austria and Brazil.&lt;/li>
+&lt;/ul>
+&lt;p>According to the information extracted about the different countries and markets, it can be corroborated that the most developed and stable markets are USA, Germany and Brazil.&lt;/p>
+&lt;ul>
+&lt;li>The most expensive product doubles the price of the previous product on the list.&lt;/li>
+&lt;li>The most expensive product, despite its high price, generates the higher income.&lt;/li>
+&lt;li>Surprisingly, the most expensive product is also the one with the highest profit, both on a unit and overall basis.&lt;/li>
+&lt;/ul>
+&lt;p>If you want to check the JupyterNotebook where I develop this project you will find it at the &lt;em>Code&lt;/em> button at the top of the page.&lt;/p></description></item></channel></rss>
