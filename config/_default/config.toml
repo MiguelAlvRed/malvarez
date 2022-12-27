@@ -26,7 +26,7 @@ disqusShortname = ""
 ############################
 
 # Name of Academia theme folder in `themes/`.
-theme = "portfolio_personal_web"
+theme = "portfolio-personal-web"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
