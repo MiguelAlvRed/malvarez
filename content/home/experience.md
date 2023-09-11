@@ -17,6 +17,25 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Business Analyst Intern"
+  company = "Amazon"
+  company_url = "https://www.amazon.com/"
+  location = "Madrid, Spain"
+  date_start = "2023-03-01"
+  date_end = "2022-09-01"
+  description = """Complete with a good short sentence.
+ 
+  Responsibilities include:
+  
+  * Designed a comprehensive weekly savings report for a high-value project, successfully quantifying the estimated savings at $1.5M/y.
+  * Executed an end-to-end BI solution employing SQL and AWS Quicksight, leading to a reduction of manual work by 14h/week.
+  * Devised customized SQL queries to build adhoc analyses, enabling precise and informed technical decision-making.
+  * Contributed to the quarter guidance analysis, collaborating with multiple stakeholders and optimizing the existing workflow.
+
+  """
+
 [[experience]]
   title = "Assistant in General Management"
   company = "Dinak S.A"
