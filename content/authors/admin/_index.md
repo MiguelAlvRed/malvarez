@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Miguel Álvarez Red
+name: Miguel Álvarez
 avatar_image: "user-full-mike.png"
 # Username (this should match the folder name)
 authors:
@@ -14,7 +14,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Big Data & Analytics MSc Student
+role: Ex Amazon Business Analyst Intern | MSc in Big Data & Analytics | Industrial Engineer
 
 # Organizations/Affiliations
 organizations:
