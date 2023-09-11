@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Miguel Álvarez
+name: Miguel Álvarez Red
 avatar_image: "user-full-mike.png"
 # Username (this should match the folder name)
 authors:
