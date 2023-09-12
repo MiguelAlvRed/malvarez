@@ -76,8 +76,6 @@ email: ""
 # - Visitors
 ---
 
-In my previous work experience, I have demonstrated a strong analytical ability and good skills on how to handle pressure, which has allowed me to work efficiently in a team.
+Industrial Engineer, currently pursuing an MSc in Big Data & Business Intelligence; with a great interest in the added value that the use of these technologies and tools can bring to the business world.
 
-In addition, I have advanced knowledge of Microsoft tools such as Excel and Access, and I have begun self-learning programming languages such as SQL and Python.
-
-As a plus, I have a native level of Spanish and a B2 level of English (currently preparing the C1 Certificate), which allows me to communicate effectively in both languages.
+I identify myself as a person with a great analytical capacity, optimal pressure management, proactive when it comes to teamwork, and a curious person with eagerness for improvement and continuous learning, which allows me to gradually improve my technical skills.
