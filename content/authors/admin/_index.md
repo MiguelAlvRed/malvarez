@@ -76,6 +76,8 @@ email: ""
 # - Visitors
 ---
 
+<div style="text-align: justify;">
 Industrial Engineer, currently pursuing an MSc in Big Data & Business Intelligence; with a great interest in the added value that the use of these technologies and tools can bring to the business world.
 
 I identify myself as a person with a great analytical capacity, optimal pressure management, proactive when it comes to teamwork, and a curious person with eagerness for improvement and continuous learning, which allows me to gradually improve my technical skills.
+</div>
