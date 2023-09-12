@@ -12,7 +12,7 @@ day_night = true
 
 # Font style.
 #   default from `default`, `classic`, or `playfair`.
-font = "classic"
+font = "playfair"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -25,7 +25,7 @@ twitter = ""
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-logo = ""
+logo = "static\img\logo.jpg"
 
 # Enable global source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
